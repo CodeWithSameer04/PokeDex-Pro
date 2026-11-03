@@ -53,6 +53,53 @@ export interface PokemonSummary {
   flavorText?: string;
 }
 
+export type RegionalRegion = 'alola' | 'galar' | 'hisui' | 'paldea';
+
+export interface RegionalFormMetadata {
+  slug: string;
+  formId: number;
+  speciesId: number;
+  baseName: string;
+  regionalName: string;
+  region: RegionalRegion;
+  regionName: string;
+  regionAdjective: string;
+  formLabel: string;
+  introGen: number;
+  evolutionInfo: string;
+  lore: string;
+  baseRegionName: string;
+  baseFormLabel: string;
+}
+
+export interface FormDetail {
+  id: number;
+  speciesId: number;
+  slug: string;
+  name: string;
+  baseName: string;
+  formName: string;
+  region: string;
+  regionKey: string;
+  isRegional: boolean;
+  isBase: boolean;
+  types: PokemonType[];
+  stats: BaseStats;
+  generation: number;
+  height: number;
+  weight: number;
+  species: string;
+  sprite: string;
+  artwork: string;
+  abilities: { name: string; isHidden: boolean }[];
+  evolutionInfo?: string;
+  lore?: string;
+}
+
+export interface RegionalPokemonSummary extends FormDetail {
+  basePokemon: FormDetail;
+}
+
 export interface MoveFlags {
   contact?: boolean;
   protect?: boolean;
