@@ -382,11 +382,6 @@ remain subject to their respective licenses and terms.
 
 ------------------------------------------------------------------------
 
-## 👨‍💻 Author
-
-**Sameer Raj**  
-GitHub: [@CodeWithSameer04](https://github.com/CodeWithSameer04)
-
 ## 📜 License
 
 Choose and add a license before distributing this project. If you intend
@@ -396,4 +391,3 @@ file in the repository.
 ------------------------------------------------------------------------
 
 **PokéAtlas --- Explore. Learn. Battle.**
-
