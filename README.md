@@ -397,6 +397,3 @@ file in the repository.
 
 **PokéAtlas --- Explore. Learn. Battle.**
 
-
-add my name as author 
-CodeWithSameer04 - Sameer Raj
