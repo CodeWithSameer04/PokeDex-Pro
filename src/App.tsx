@@ -19,6 +19,7 @@ import { BattleGuidePage } from './pages/BattleGuidePage';
 import { LearnPage } from './pages/LearnPage';
 import { QuizPage } from './pages/QuizPage';
 import { AboutPage } from './pages/AboutPage';
+import { NotFoundPage } from './pages/NotFoundPage';
 
 // Scroll to top on route change
 function ScrollToTop() {
@@ -52,7 +53,7 @@ export const App: React.FC = () => {
           <Route path="/learn" element={<LearnPage />} />
           <Route path="/quiz" element={<QuizPage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="*" element={<HomePage />} />
+          <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
 
